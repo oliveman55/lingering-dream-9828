@@ -1,0 +1,30 @@
+{
+  "name": "lingering-dream-9828",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lively-flower-3c42-d1",
+      "database_id": "be21617f-98a5-406c-b0ff-b7475beae1ff"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "lingering-dream-9828-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
